@@ -1,0 +1,28 @@
+{
+  "name": "attest-fe-tech-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "vite",
+    "build": "yarn typecheck && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "happy-dom": "^12.10.3",
+    "less": "^4.1.2",
+    "postcss": "^8.4.31",
+    "postcss-preset-env": "^9.2.0",
+    "sass": "^1.48.0",
+    "stylus": "^0.60.0",
+    "typescript": "^5.2.2",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
